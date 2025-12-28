@@ -71,7 +71,11 @@
 
         <div class="grid-2">
           <div class="card">
-            <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
+              <p hidden>
+                <label>Ne pas remplir : <input name="bot-field" /></label>
+              </p>
               <label for="nom"><strong>Nom</strong></label><br />
               <input id="nom" name="nom" type="text" required
                      style="width:100%; padding:.7rem; border:1px solid var(--line); border-radius:12px; margin:.35rem 0 1rem;" />
@@ -108,7 +112,6 @@
 
               <p id="form-status" class="meta" style="margin-top:1rem; display:none;"></p>
             </form>
-            <script defer src="./js/form.js"></script>
           </div>
 
           <div class="card">
