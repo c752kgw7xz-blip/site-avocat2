@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contatto — Avvocato in diritto di famiglia a Nizza</title>
+  <meta name="description" content="Contattare lo studio: appuntamenti, recapiti e modulo di contatto." />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#content">Vai al contenuto</a>
+
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="./index-it.html" aria-label="Home">
+        <strong>ALBERTIN-ROBY Mary</strong>
+        <span>Avvocato — Diritto di famiglia</span>
+      </a>
+
+      <div class="lang-switch" style="margin-left:1rem;">
+        <a href="./contact-it.html" aria-current="page">IT</a> |
+        <a href="./contact.html">FR</a> |
+        <a href="./contact-en.html">EN</a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-main">Menu</button>
+
+      <nav id="nav-main" aria-label="Navigazione principale" data-open="false">
+        <ul>
+          <li><a href="./index-it.html">Home</a></li>
+          <li><a href="./cabinet-it.html">Lo studio</a></li>
+          <li><a href="./famille-it.html">Diritto di famiglia</a></li>
+          <li><a href="./honoraires-it.html">Onorari</a></li>
+          <li><a class="btn btn-primary" href="./contact-it.html" aria-current="page">Contatto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="kicker">Contatto</div>
+          <strong>ALBERTIN-ROBY Mary</strong>
+          <p class="lead">È possibile contattare lo studio telefonicamente, via email o tramite il modulo sottostante.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+33493803069">Chiamare</a>
+            <a class="btn" href="mailto:albertinroby@bbox.fr">Inviare un’email</a>
+          </div>
+        </div>
+
+        <aside class="card" aria-label="Recapiti">
+          <h2>Contatti</h2>
+          <p class="meta"><strong>Sede principale:</strong><br>
+            15 rue de l’Hôtel des Postes, 06000 Nizza<br>
+            <strong>Telefono:</strong> <a href="tel:+33493803069">+33 4 93 80 30 69</a>
+          </p>
+          <p class="meta"><strong>Sede secondaria:</strong><br>
+            L’Orient Palace, 1 rue de la République, 06500 Mentone<br>
+            <strong>Cellulare:</strong> <a href="tel:+33660723599">+33 6 60 72 35 99</a>
+          </p>
+          <p class="meta"><strong>Email:</strong> <a href="mailto:albertinroby@bbox.fr">albertinroby@bbox.fr</a></p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Modulo</h2>
+        <div class="grid-2">
+          <div class="card">
+            <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+              <label for="nom"><strong>Nome</strong></label>
+              <input id="nom" name="nom" type="text" required />
+
+              <label for="email"><strong>Email</strong></label>
+              <input id="email" name="email" type="email" required />
+
+              <label for="tel"><strong>Telefono (facoltativo)</strong></label>
+              <input id="tel" name="tel" type="tel" />
+
+              <label for="objet"><strong>Oggetto</strong></label>
+              <select id="objet" name="objet">
+                <option value="rdv">Richiesta di appuntamento</option>
+                <option value="divorce">Divorzio / separazione</option>
+                <option value="enfants">Figli</option>
+                <option value="succession">Successione</option>
+                <option value="other">Altro</option>
+              </select>
+
+              <label for="message"><strong>Messaggio</strong></label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+
+              <p class="meta">Inviando questo modulo, acconsentite all’utilizzo dei dati per essere ricontattati in relazione alla vostra richiesta.</p>
+              <button class="btn btn-primary" type="submit">Inviare</button>
+            </form>
+            <script defer src="./js/form.js"></script>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <p class="meta">
+          Nizza — 15 rue de l’Hôtel des Postes, 06000 Nizza — <a href="tel:+33493803069">+33 4 93 80 30 69</a><br>
+          Mentone — L’Orient Palace, 1 rue de la République, 06500 Mentone — <a href="tel:+33660723599">+33 6 60 72 35 99</a><br>
+          <a href="mailto:albertinroby@bbox.fr">albertinroby@bbox.fr</a>
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="./mentions-legales-it.html">Note legali</a>
+        <a href="./confidentialite-it.html">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

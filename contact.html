@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Contact — Avocate en droit de la famille à Nice</title>
+  <meta name="description" content="Contact du cabinet : prise de rendez-vous, coordonnées, formulaire. Droit de la famille à Nice." />
+
+  <meta property="og:title" content="Contact — Avocate en droit de la famille à Nice" />
+  <meta property="og:description" content="Prise de rendez-vous et coordonnées du cabinet." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script defer src="./js/main.js"></script>
+</head>
+
+      <nav id="nav-principal" aria-label="Navigation principale" data-open="false">
+        <ul>
+          <li><a href="./index.html">Accueil</a></li>
+          <li><a href="./cabinet.html">Le cabinet</a></li>
+          <li><a href="./famille.html">Droit de la famille</a></li>
+          <li><a href="./honoraires.html">Honoraires</a></li>
+          <li><a class="btn btn-primary" href="./contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="kicker">Contact</div>
+            <strong>ALBERTIN-ROBY Mary</strong>
+          <p class="lead">
+            Vous pouvez contacter le cabinet par téléphone, email, ou via le formulaire ci-dessous.
+            Pour l’instant, le formulaire est en “mode vitrine” : l’envoi sera branché à l’étape suivante.
+          </p>
+
+           <div class="lang-switch" style="margin-left:1rem;">
+             <a href="./contact-en.html">EN</a> |
+             <a href="./contact.html">FR</a>
+           </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+33493803069">Appeler</a>
+            <a class="btn" href="mailto:albertinroby@bbox.fr">Envoyer un email</a>
+          </div>
+
+          <p class="meta" style="margin-top:.8rem;">
+            <span class="badge">Nice</span>
+            <span class="badge">Consultations sur rendez-vous</span>
+          </p>
+        </div>
+
+        <aside class="card" aria-label="Coordonnées">
+          <h2 style="margin-bottom:.4rem;">Coordonnées</h2>
+          <p class="meta"><strong>Cabinet principal :</strong><br>15 rue de l’Hôtel des Postes, 06000 Nice<br><strong>Tél :</strong> <a href="tel:+33493803069">04 93 80 30 69</a></p>
+          <p class="meta"><strong>Cabinet secondaire :</strong><br>L’Orient Palace, 1 rue de la République, 06500 Menton<br><strong>Portable :</strong> <a href="tel:+33660723599">06 60 72 35 99</a></p>
+          <p class="meta"><strong>Email :</strong> <a href="mailto:albertinroby@bbox.fr">albertinroby@bbox.fr</a></p>
+          <p class="meta"><strong>Horaires :</strong> Lun–Ven 9:00–18:00 (sur rendez‑vous)</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Formulaire</h2>
+
+        <div class="grid-2">
+          <div class="card">
+            <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+              <label for="nom"><strong>Nom</strong></label><br />
+              <input id="nom" name="nom" type="text" required
+                     style="width:100%; padding:.7rem; border:1px solid var(--line); border-radius:12px; margin:.35rem 0 1rem;" />
+
+              <label for="email"><strong>Email</strong></label><br />
+              <input id="email" name="email" type="email" required
+                     style="width:100%; padding:.7rem; border:1px solid var(--line); border-radius:12px; margin:.35rem 0 1rem;" />
+
+              <label for="tel"><strong>Téléphone (optionnel)</strong></label><br />
+              <input id="tel" name="tel" type="tel"
+                     style="width:100%; padding:.7rem; border:1px solid var(--line); border-radius:12px; margin:.35rem 0 1rem;" />
+
+              <label for="objet"><strong>Objet</strong></label><br />
+              <select id="objet" name="objet"
+                      style="width:100%; padding:.7rem; border:1px solid var(--line); border-radius:12px; margin:.35rem 0 1rem;">
+                <option value="rdv">Demande de rendez-vous</option>
+                <option value="divorce">Divorce / séparation</option>
+                <option value="enfants">Enfants (résidence, DVH, pension)</option>
+                <option value="succession">Succession</option>
+                <option value="autre">Autre</option>
+              </select>
+
+              <label for="message"><strong>Message</strong></label><br />
+              <textarea id="message" name="message" rows="6" required
+                        style="width:100%; padding:.7rem; border:1px solid var(--line); border-radius:12px; margin:.35rem 0 1rem;"></textarea>
+
+              <p class="meta" style="margin-top:0;">
+                En envoyant ce formulaire, vous acceptez que les informations saisies soient utilisées pour vous recontacter,
+                uniquement dans le cadre de votre demande.
+              </p>
+
+              <button class="btn btn-primary" type="submit">Envoyer</button>
+              <a class="btn" href="mailto:albertinroby@bbox.fr" style="margin-left:.5rem;">Préférer l’email</a>
+
+              <p id="form-status" class="meta" style="margin-top:1rem; display:none;"></p>
+            </form>
+            <script defer src="./js/form.js"></script>
+          </div>
+
+          <div class="card">
+            <h3>Informations utiles</h3>
+            <ul class="list">
+              <li>Décrivez votre situation en quelques lignes</li>
+              <li>Indiquez les dates clés (séparation, jugement, etc.)</li>
+              <li>Précisez si une audience est proche</li>
+            </ul>
+
+            <h3 style="margin-top:1rem;">Prochaines étapes</h3>
+            <p class="meta">
+              Après réception, le cabinet vous proposera un créneau de rendez-vous et précisera les documents utiles à fournir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <p class="meta">
+  Nice — 15 rue de l’Hôtel des Postes, 06000 Nice —
+  <a href="tel:+33493803069">04 93 80 30 69</a><br>
+  Menton — L’Orient Palace, 1 rue de la République, 06500 Menton —
+  <a href="tel:+33660723599">06 60 72 35 99</a><br>
+  <a href="mailto:albertinroby@bbox.fr">albertinroby@bbox.fr</a>
+</p>
+      </div>
+      <div class="footer-links" aria-label="Liens de bas de page">
+        <a href="./mentions-legales.html">Mentions légales</a>
+        <a href="./confidentialite.html">Confidentialité</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
