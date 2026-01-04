@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- FR -->
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/index.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/cabinet.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/famille.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/honoraires.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/contact.html</loc>
+  </url>
+
+  <!-- EN -->
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/index-en.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/cabinet-en.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/famille-en.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/honoraires-en.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/contact-en.html</loc>
+  </url>
+
+  <!-- IT -->
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/index-it.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/cabinet-it.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/famille-it.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/honoraires-it.html</loc>
+  </url>
+  <url>
+    <loc>https://albertinroby-avocat.netlify.app/contact-it.html</loc>
+  </url>
+
+</urlset>
