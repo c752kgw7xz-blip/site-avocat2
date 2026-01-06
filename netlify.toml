@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://albertinroby-avocat.fr/:splat"
+  status = 301
+  force = true
